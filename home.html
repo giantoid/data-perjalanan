@@ -1,0 +1,145 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="icon" href="assets/img/logo-32.png">
+    <title>Peduli Diri</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 50px auto;
+            padding: 20px;
+            background: white;
+            border-radius: 8px;
+        }
+
+        .header {
+            display: flex;
+            align-items: center;
+            margin-bottom: 20px;
+        }
+
+        .logo {
+            width: 150px;
+            margin-right: 20px;
+        }
+
+        h1 {
+            margin: 0;
+            font-size: 2.5rem;
+        }
+
+        h6 {
+            margin: 10px 0;
+            font-weight: normal;
+        }
+
+        .nav {
+            display: flex;
+            list-style: none;
+            padding: 0;
+            margin: 20px 0;
+        }
+
+        .nav-item {
+            margin-right: 15px;
+        }
+
+        /* .nav-link {
+            text-decoration: none;
+            color: #007bff;
+            padding: 10px 15px;
+            border: 1px solid transparent;
+            border-radius: 5px;
+        } */
+
+        /* .nav-link:hover {
+            background-color: #e9ecef;
+        }
+
+        .nav-link.active {
+            background-color: #007bff;
+            color: white;
+        } */
+
+        .logout {
+            margin-left: auto;
+        }
+
+        .card {
+            height: 20rem;
+            background-color: #f1f1f1;
+            border-radius: 8px;
+            padding: 20px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 1.5rem;
+        }
+
+        .flex-right {
+            display: flex;
+            list-style: none;
+            justify-content: end;
+            margin-top: 10px;
+        }
+
+        button {
+            padding: 10px 35px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            background-color: #007bff;
+            color: white;
+        }
+
+        button:hover {
+            opacity: 0.9;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="header">
+            <img src="logo-512.png" class="logo" alt="logo-512">
+            <div>
+                <h1>PEDULI DIRI</h1>
+                <h4>Catatan Perjalanan</h4>
+                <nav>
+                    <ul class="nav">
+                        <li class="nav-item">
+                            <a class="nav-link active" href="#">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="catatan-perjalanan">Catatan Perjalanan</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="catatan-perjalanan/isi-data.php">Isi Data</a>
+                        </li>
+                        <li class="nav-item logout">
+                            <a class="nav-link" href="process/logout.php">Logout</a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+        <div class="card">
+            Selamat datang di Aplikasi Peduli Diri!
+        </div>
+        <div class="flex-right">
+            <button>Isi Catatan Perjalanan</button>
+        </div>
+    </div>
+</body>
+
+</html>
